@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "lmsreporting",
+    "libraryId": "b86ead08-e01c-4f22-80a0-17c7fdc2acda",
+    "environment": "spo"
+  }
+}

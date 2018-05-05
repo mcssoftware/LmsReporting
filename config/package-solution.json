@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "lmsreporting-client-side-solution",
+    "id": "b86ead08-e01c-4f22-80a0-17c7fdc2acda",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/lmsreporting.sppkg"
+  }
+}
