@@ -1,7 +1,7 @@
-import * as React from 'react';
-import styles from './BillDigestReport.module.scss';
-import { IBillDigestReportProps } from './IBillDigestReportProps';
-import { escape } from '@microsoft/sp-lodash-subset';
+import * as React from "react";
+import styles from "./BillDigestReport.module.scss";
+import { IBillDigestReportProps } from "./IBillDigestReportProps";
+import { escape } from "@microsoft/sp-lodash-subset";
 
 export default class BillDigestReport extends React.Component<IBillDigestReportProps, {}> {
   public render(): React.ReactElement<IBillDigestReportProps> {
