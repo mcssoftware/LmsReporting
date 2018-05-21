@@ -9,10 +9,25 @@
           "manifest": "./src/webparts/billDigestReport/BillDigestReportWebPart.manifest.json"
         }
       ]
+    },
+    "bill-status-report-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/billStatusReport/BillStatusReportWebPart.js",
+          "manifest": "./src/webparts/billStatusReport/BillStatusReportWebPart.manifest.json"
+        }
+      ]
     }
   },
-  "externals": {},
+  "externals": {
+    "sp-pnp-js": "https://mcsspfx.blob.core.windows.net/mcslmsapp/sp-pnp-js/dist/pnp.min.js",
+    "rx-lite": "https://mcsspfx.blob.core.windows.net/mcslmsapp/rx-lite/rx.lite.js",
+    // "adal-angular": "https://mcsspfx.blob.core.windows.net/mcslmsapp/adal-angular/lib/adal.js",
+    "office-ui-fabric-react": "https://mcsspfx.blob.core.windows.net/mcslmsapp/office-ui-fabric-react-bundle/dist/office-ui-fabric-react-bundle.js",
+    "mcs-lms-core": "https://mcsspfx.blob.core.windows.net/mcslmsapp/LmsCore/lmscore.js"
+  },
   "localizedResources": {
-    "BillDigestReportWebPartStrings": "lib/webparts/billDigestReport/loc/{locale}.js"
+    "BillDigestReportWebPartStrings": "lib/webparts/billDigestReport/loc/{locale}.js",
+    "BillStatusReportWebPartStrings": "lib/webparts/billStatusReport/loc/{locale}.js"
   }
 }
